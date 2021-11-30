@@ -31,9 +31,10 @@ body {
 }
 h1 {
   font-family: ivymode, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: 6rem;
+  margin-top: auto;
   margin-bottom: 0.5rem;
 }
 a {
@@ -272,53 +273,49 @@ p {
 .color-textbox {
   background-color: black;
 }
+
+.text-container-quote {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 1rem;
+}
 .paragraph-quote {
   color: white;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 500;
   font-style: italic;
 }
 
-.about a {
-  font-family: ivymode, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2rem;
-  display: flex;
-  justify-content: flex-start;
-  color: white;
-  text-decoration: none;
-  margin-top: 1.5rem;
-}
-.page-hover {
-  transition: all 500ms;
-}
+/* Footer */
 
-.page-hover:hover {
-  padding-left: 2rem;
+h3 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
 }
 
 .footer {
-  height: 200px;
   background-color: #ffee95;
 }
 
 .footer-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.social-buttons {
   flex-direction: row;
 }
 
-.view-all {
-  padding-top: 4rem;
-  margin: 0;
+.work-together {
+  margin-top: 2rem;
   font-size: 2rem;
   font-weight: normal;
   color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* project.html */
@@ -453,12 +450,16 @@ h4 {
 .circle-bg-media {
   background-image: none;
 }
+.animation-line-media {
+  display: none;
+}
 
 /* media */
 
 @media (max-width: 500px) {
   body {
     background-color: white;
+    max-height: 100vh;
   }
   .media-h1 {
     display: none;
@@ -479,8 +480,10 @@ h4 {
     font-size: 5.5em;
     line-height: 6rem;
     color: black;
-    margin: 1rem;
+    margin: 22rem 0 0 1rem;
+    padding-top: 8rem;
   }
+
   .media-p {
     display: none;
   }
@@ -488,11 +491,17 @@ h4 {
     display: block;
     width: 100%;
     height: 545px;
+
     background-position: center;
     background-size: cover;
     background-image: url("img/background-circle.png");
   }
   .vertical-line {
     display: none;
+  }
+
+  .animation-line-media {
+    display: flex;
+    justify-content: center;
   }
 }

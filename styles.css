@@ -461,6 +461,9 @@ h4 {
     background-color: white;
     max-height: 100vh;
   }
+  .menu-categori {
+    font-size: 3rem;
+  }
   .media-h1 {
     display: none;
   }

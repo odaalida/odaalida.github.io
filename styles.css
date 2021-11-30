@@ -456,7 +456,7 @@ h4 {
 
 /* media */
 
-@media (max-width: 770px) {
+@media (max-width: 500px) {
   body {
     background-color: white;
   }

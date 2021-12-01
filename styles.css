@@ -318,7 +318,7 @@ h3 {
   color: black;
 }
 
-/* project.html */
+/* project.html*/
 
 .grid-container-right {
   display: grid;
@@ -339,13 +339,6 @@ h3 {
   max-height: 100vh;
   margin-bottom: 160px;
 }
-
-/* .img-column {
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-} */
 
 /* project1.html */
 
@@ -453,6 +446,85 @@ h4 {
 .animation-line-media {
   display: none;
 }
+.logo-media {
+  display: none;
+}
+
+/* A grid of fun */
+
+.fun-grid-container {
+  display: grid;
+  max-width: 1024px;
+  margin: 120px auto;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 48px);
+  grid-auto-rows: 48px;
+  grid-auto-flow: dense;
+  gap: 1rem;
+}
+
+.item-1 {
+  background-image: url(https://picsum.photos/seed/1/800);
+  background-position: center;
+  background-size: cover;
+  padding: 1.25rem;
+  grid-column: span 4;
+  grid-row: span 6;
+}
+
+.item-2 {
+  background-image: url(https://picsum.photos/seed/2/800);
+  background-position: center;
+  background-size: cover;
+  padding: 1.25rem;
+  grid-column: span 4;
+  grid-row: span 6;
+}
+
+.item-3 {
+  background-image: url(https://picsum.photos/seed/3/800);
+  background-position: center;
+  background-size: cover;
+  padding: 1.25rem;
+  grid-column: 5 / 13;
+  grid-row: span 4;
+}
+
+.item-4 {
+  background-image: url(https://picsum.photos/seed/4/800);
+  background-position: center;
+  background-size: cover;
+  padding: 1.25rem;
+  grid-column: 1 / -1;
+  grid-row: span 2;
+}
+
+.item-5 {
+  background-image: url(https://picsum.photos/seed/5/800);
+  background-position: center;
+  background-size: cover;
+  padding: 1.25rem;
+  grid-column: span 4;
+  grid-row: span 3;
+}
+
+.item-6 {
+  background-image: url(https://picsum.photos/seed/6/800);
+  background-position: center;
+  background-size: cover;
+  padding: 1.25rem;
+  grid-column: span 4;
+  grid-row: span 3;
+}
+
+.item-7 {
+  background-image: url(https://picsum.photos/seed/7/800);
+  background-position: center;
+  background-size: cover;
+  padding: 1.25rem;
+  grid-column: span 4;
+  grid-row: span 4;
+}
 
 /* media */
 
@@ -461,8 +533,23 @@ h4 {
     background-color: white;
     max-height: 100vh;
   }
+  .logo {
+    display: none;
+  }
+  .logo-media {
+    display: block;
+    font-family: ivymode, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    padding: 1rem 0rem 0rem 2rem;
+    text-decoration: none;
+  }
   .menu-categori {
     font-size: 3rem;
+  }
+  .menu-4 {
+    margin-bottom: 3rem;
   }
   .media-h1 {
     display: none;
@@ -483,8 +570,12 @@ h4 {
     font-size: 5.5em;
     line-height: 6rem;
     color: black;
-    margin: 22rem 0 0 1rem;
+    margin: 8rem 0 0 1rem;
     padding-top: 8rem;
+  }
+  .paragraph-quote {
+    margin-left: 1rem;
+    font-size: 2rem;
   }
 
   .media-p {
@@ -506,5 +597,6 @@ h4 {
   .animation-line-media {
     display: flex;
     justify-content: center;
+    padding-top: 2rem;
   }
 }

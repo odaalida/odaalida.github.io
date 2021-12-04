@@ -29,6 +29,7 @@ body {
   padding: 1rem 0rem 0rem 2rem;
   text-decoration: none;
 }
+
 h1 {
   font-family: ivymode, sans-serif;
   font-weight: 500;
@@ -167,18 +168,14 @@ a:visited {
 }
 
 .bg-line2 {
-  background-color: #3c1053;
-  color: white;
-}
-#color-h2 {
-  color: white;
+  background-color: C698DB;
 }
 
 .bg-line3 {
   background-color: #92cb9c;
 }
 .bg-line4 {
-  background-color: #c698db;
+  background-color: #00c690;
 }
 
 /* .case-name {
@@ -564,6 +561,7 @@ h4 {
     background-color: white;
     max-height: 100vh;
   }
+
   .logo {
     display: none;
   }
@@ -580,7 +578,7 @@ h4 {
     font-size: 3rem;
   }
   .menu-4 {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
   .media-h1 {
     display: none;

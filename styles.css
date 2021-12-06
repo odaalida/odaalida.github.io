@@ -32,7 +32,7 @@ body {
 
 h1 {
   font-family: ivymode, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 6rem;
   margin-top: auto;
@@ -115,6 +115,11 @@ a:visited {
 .menu-categori:hover {
   padding-left: 2rem;
 }
+
+/* .arrow-down {
+  align-items: flex-end;
+} */
+
 .img-yellow {
   margin: 0;
   width: auto;
@@ -144,16 +149,16 @@ a:visited {
 }
 
 .backgroundimg1 {
-  background-image: url("img/image1.jpg");
+  background-image: url("img/odaalida-mockup.jpg");
 }
 .backgroundimg2 {
-  background-image: url("img/image2.jpg");
+  background-image: url("img/rethink_Iphone-Mockup.jpg");
 }
 .backgroundimg3 {
-  background-image: url("img/image3.jpg");
+  background-image: url("img/Rudolf_mockup.jpg");
 }
 .backgroundimg4 {
-  background-image: url("img/image4.jpg");
+  background-image: url("img/smoove_desktop_mobile.png");
 }
 
 .bg-line {
@@ -168,7 +173,7 @@ a:visited {
 }
 
 .bg-line2 {
-  background-color: C698DB;
+  background-color: #c698db;
 }
 
 .bg-line3 {
@@ -177,16 +182,6 @@ a:visited {
 .bg-line4 {
   background-color: #00c690;
 }
-
-/* .case-name {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: 0;
-  height: 100%;
-  background-size: 100% 680px;
-  background-repeat: no-repeat;
-} */
 
 h2 {
   font-family: ivymode, sans-serif;
@@ -219,6 +214,9 @@ p {
   margin-bottom: 0;
   font-size: 3rem;
   line-height: 2.5rem;
+  font-family: titillium-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .media-paragraph {
@@ -278,18 +276,18 @@ p {
 }
 .paragraph-quote {
   color: white;
-  font-size: 3rem;
-  line-height: 3.5rem;
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 500;
-  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+  font-family: titillium-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Footer */
 
 h3 {
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 500;
+  font-family: titillium-web, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 1rem;
 }
@@ -343,27 +341,27 @@ h3 {
 }
 
 .case-1 {
-  background-image: url(img/image1.jpg);
+  background-image: url(img/odaalida-mockup.jpg);
 }
 
 .case-2 {
-  background-image: url(img/image2.jpg);
+  background-image: url(img/rethink_Iphone-Mockup.jpg);
 }
 
 .case-3 {
-  background-image: url(img/image3.jpg);
+  background-image: url(img/Rudolf_mockup.jpg);
 }
 
 .case-4 {
-  background-image: url(img/image4.jpg);
+  background-image: url(img/smoove_desktop_mobile.png);
 }
 
 .case-5 {
-  background-image: url(img/IMG_4412.jpg);
+  background-image: url(img/Poster-mockup.jpg);
 }
 
 /* header starts */
-/* project1.html */
+/* project-one.html */
 .project-img {
   flex: 1;
   width: 100%;
@@ -371,7 +369,7 @@ h3 {
   background-size: cover;
 }
 .project-img1 {
-  background-image: url("img/matteo-vella-mJif93InGaU-unsplash.jpg");
+  background-image: url("img/Mockups_odaalida.com.jpg");
 }
 
 .project-color-rectangle {
@@ -398,7 +396,7 @@ h4 {
 .project-row1 {
   display: flex;
   flex-direction: row;
-  margin: 1.5rem 0 0 2.5rem;
+  margin-top: 1.5rem;
 }
 
 .project-row2 {
@@ -429,18 +427,19 @@ h4 {
   font-size: 1.25rem;
   line-height: 1.8rem;
   margin-top: 1rem;
+  font-family: titillium-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .backgroundimg5 {
-  background-image: url("img/kari-shea-1SAnrIxw5OY-unsplash.jpg");
+  background-image: url("img/Mockups_odaalida.com.jpg");
 }
 .backgroundimg6 {
-  background-image: url("img/pexels-cottonbro-5083212.jpg");
+  background-image: url("img/odaalida-mockup.jpg");
 }
 .backgroundimg7 {
-  background-image: url("img/yellow_portrait-banana.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url("img/odaalida-mockup.jpg");
 }
 
 .project-content {
@@ -486,8 +485,8 @@ h4 {
   filter: invert(1);
 }
 .paragraph-info {
-  font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 500;
+  font-family: titillium-web, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 1.8rem;
@@ -505,10 +504,6 @@ h4 {
 .info-bg-color {
   background-color: black;
 }
-.yellow-word {
-  font-weight: 700;
-  color: #ffee95;
-}
 
 .circle-bg-media {
   background-image: none;
@@ -522,84 +517,33 @@ h4 {
 .media-h2-img-wrapper {
   display: none;
 }
+.yellow-word,
+.yellow-word:visited {
+  font-family: titillium-web, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffee95;
+}
 
 /* A grid of fun */
 
-.fun-grid-container {
-  display: grid;
-  max-width: 1024px;
-  margin: 120px auto;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 48px);
-  grid-auto-rows: 48px;
-  grid-auto-flow: dense;
-  gap: 1rem;
+.of-fun-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7.5rem;
+}
+.of-fun-img {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  width: 350px;
+  height: 500px;
+}
+.of-fun-p {
+  font-size: 2rem;
 }
 
-.item-1 {
-  background-image: url(https://picsum.photos/seed/1/800);
-  background-position: center;
-  background-size: cover;
-  padding: 1.25rem;
-  grid-column: span 4;
-  grid-row: span 6;
-}
-
-.item-2 {
-  background-image: url(https://picsum.photos/seed/2/800);
-  background-position: center;
-  background-size: cover;
-  padding: 1.25rem;
-  grid-column: span 4;
-  grid-row: span 6;
-}
-
-.item-3 {
-  background-image: url(https://picsum.photos/seed/3/800);
-  background-position: center;
-  background-size: cover;
-  padding: 1.25rem;
-  grid-column: 5 / 13;
-  grid-row: span 4;
-}
-
-.item-4 {
-  background-image: url(https://picsum.photos/seed/4/800);
-  background-position: center;
-  background-size: cover;
-  padding: 1.25rem;
-  grid-column: 1 / -1;
-  grid-row: span 2;
-}
-
-.item-5 {
-  background-image: url(https://picsum.photos/seed/5/800);
-  background-position: center;
-  background-size: cover;
-  padding: 1.25rem;
-  grid-column: span 4;
-  grid-row: span 3;
-}
-
-.item-6 {
-  background-image: url(https://picsum.photos/seed/6/800);
-  background-position: center;
-  background-size: cover;
-  padding: 1.25rem;
-  grid-column: span 4;
-  grid-row: span 3;
-}
-
-.item-7 {
-  background-image: url(https://picsum.photos/seed/7/800);
-  background-position: center;
-  background-size: cover;
-  padding: 1.25rem;
-  grid-column: span 4;
-  grid-row: span 4;
-}
-
-/* media index.html*/
+/* media queries index.html*/
 
 @media (max-width: 500px) {
   body {
@@ -637,7 +581,21 @@ h4 {
 
   .project-title-media {
     font-size: 1.25rem;
-    margin: 1rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .project-title-media-bold {
+    font-weight: 700;
+  }
+  .bg-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .animation-parent {
+    margin-right: 0;
   }
 
   .media-paragraph {
@@ -673,23 +631,39 @@ h4 {
     justify-content: center;
     padding-top: 2rem;
   }
-  /* media project-one.html*/
+  /* Breakpoints project-one.html*/
+
+  .project-img {
+    display: none;
+  }
+  .bg-container-breakp {
+    background-color: #ffee95;
+  }
+  .project-row1 {
+    margin-top: 7.5rem;
+  }
   .project-color-rectangle,
   .project-row1,
   .project-row2 {
     flex-direction: column;
   }
-  .project-row1 {
-    margin: 0;
-  }
+
   .inside-project-title-media {
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin: 0;
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
   }
-  .project-color-rectangle {
-    padding: 1rem;
+  .h4-project-media {
+    margin: 1rem 0 0.5rem 1rem;
   }
+
+  .p-project-media {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+  }
+
   .case-wrapper-row {
     display: flex;
     flex-direction: column;
@@ -717,7 +691,24 @@ h4 {
     display: 2rem;
   }
 
-  /* info.html */
+  /* Breakpoints A grid of fun */
+
+  .of-fun-wrapper {
+    padding-top: 7.5rem;
+  }
+
+  .of-fun-img {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .of-fun-p {
+    font-size: 2rem;
+    margin-left: 3rem;
+  }
+
+  /* Breakpoints info.html */
 
   .logo-white {
     filter: invert(1);
@@ -727,7 +718,7 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
-    margin-bottom: 12.5rem;
+    margin-bottom: 5rem;
     margin-right: 2rem;
   }
 
@@ -741,7 +732,10 @@ h4 {
     margin-top: 8rem;
   }
   .h2-info {
-    margin: 1.5rem 2rem 0.5rem 0;
+    margin: 4rem 2rem 0.5rem 0;
+  }
+  .h2-info-mq {
+    margin-top: 0;
   }
 
   .media-h2-img-wrapper {
@@ -767,5 +761,9 @@ h4 {
     line-height: 1.8rem;
     padding-right: 0;
     letter-spacing: 0.5px;
+  }
+  .yellow-word {
+    font-weight: 700;
+    color: #ffee95;
   }
 }

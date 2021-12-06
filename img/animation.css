@@ -1,0 +1,51 @@
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.animation-parent {
+  position: relative;
+  overflow: hidden;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.line-animation {
+  margin: 0;
+}
+
+h2.line-animation:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: black;
+  -webkit-animation: slide 3s ease-in-out infinite;
+  animation: slide 3s ease-in-out infinite;
+  transform: translateX(-100%);
+}
+
+.line-animation:after {
+  margin: 0 2rem 0 0;
+  width: 80%;
+}
